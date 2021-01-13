@@ -131,7 +131,7 @@ MEDIA_URL = "/media/"
 VENV_PATH = os.path.dirname(BASE_DIR)
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 MEDIA_ROOT = os.path.join(VENV_PATH, 'media_root')
-STATIC_ROOT = os.path.join(VENV_PATH,'assets')
+STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 
 
 print(BASE_DIR)

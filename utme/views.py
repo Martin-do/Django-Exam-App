@@ -71,7 +71,7 @@ def pre_exam(request):
         'page_request_var': page_request_var,
         # 'form': form,
     }
-    return render(request, 'exam.html', context)
+    return render(request, 'exam2.html', context)
 
 
 
