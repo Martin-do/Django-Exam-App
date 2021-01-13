@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="pre_exam" method="POST">
+    {% csrf_token %}
+
+    <p>choose exam</p>
+    <input type="text" name="subject">
+    <input type="text" name="users_name">
+    <input type="submit" value="START">
+
+
+
+</form>
+
+{% endblock %}
